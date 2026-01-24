@@ -1,3 +1,5 @@
+#Blog deep dive into this function: https://masons-programming-journal.blogspot.com/2026/01/mymean-custom-function.html 
+
 #First Dataset
 assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
 

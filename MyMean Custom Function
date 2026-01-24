@@ -1,0 +1,19 @@
+#First Dataset
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+#MyMean Incorrect Custom Function
+myMean <- function(assignment2) {
+  return(sum(assignment) / length(someData))
+}
+#Error Message due to the variable names not matching assignment2
+Error in myMean(assignment2) : object 'assignment' not found
+
+#New DataSet
+assignment3 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+#Corrected function with matching variables
+myMean <- function(assignment3) {
+  return(sum(assignment3) / length(assignment3))
+}
+myMean(assignment3)
+[1] 19.25

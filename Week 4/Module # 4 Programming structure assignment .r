@@ -1,3 +1,5 @@
+
+##BLOG: https://masons-programming-journal.blogspot.com/2026/02/module4-programming-structure.html
 # Set WD
 setwd("/home/mase/Documents/LIS4370/Module 4")
 ################################################################################

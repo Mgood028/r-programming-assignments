@@ -1,3 +1,4 @@
+# Blog Post: https://masons-programming-journal.blogspot.com/2026/02/math-in-r.html
 # Build matrices
 a <- matrix(c(2,0,1,3), ncol = 2)
 b <- matrix(c(5,2,4,-1), ncol = 2)

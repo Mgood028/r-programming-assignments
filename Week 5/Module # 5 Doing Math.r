@@ -1,3 +1,4 @@
+Blog post: https://masons-programming-journal.blogspot.com/2026/02/matrixs.html
 # Create matrices without random values
 A <- matrix(1:100, nrow = 10)
 B <- matrix(1:1000, nrow = 10)

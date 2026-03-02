@@ -1,3 +1,4 @@
+BLOG: https://masons-programming-journal.blogspot.com/2026/03/object-oriented-coding-in-r.html
 # First Step: Load Data
 T.df <- as.data.frame(Titanic)
 

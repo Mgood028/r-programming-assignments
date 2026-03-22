@@ -1,3 +1,4 @@
+Blog: https://masons-programming-journal.blogspot.com/2026/03/inputoutput-string-manipulation-and.html
 library(plyr)
 
 txt_data <- read.table("Assignment 6 Dataset.txt")

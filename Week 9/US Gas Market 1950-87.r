@@ -1,3 +1,4 @@
+# Blog: https://masons-programming-journal.blogspot.com/2026/03/the-3-levels-of-graphing-in-r.html
 library(lattice)
 library(ggplot2)
 

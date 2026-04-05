@@ -1,3 +1,4 @@
+# Blog: https://masons-programming-journal.blogspot.com/2026/04/debugging.html
 #First Version of Code w/ bug
 
 tukey.outlier <- function(x, k = 1.5) {

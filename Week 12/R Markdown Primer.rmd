@@ -1,0 +1,51 @@
+---
+title: "Week 12"
+output: html_document
+date: "2026-04-12"
+author: "Mason Good"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+$$
+\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i
+$$
+```{r load-data}
+library(ggplot2)
+data(mtcars)
+```
+```{r stats}
+
+summary(mtcars[, c("mpg", "hp", "wt")])
+
+# Calculate correlation between weight and MPG
+cor(mtcars$wt, mtcars$mpg)
+
+```
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r Plot, echo=FALSE}
+
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point(aes(color = factor(cyl)), size = 3) +
+  geom_smooth(method = "lm", se = TRUE, color = "darkblue") +
+  labs(
+    title = "Vehicle Weight vs. Fuel Efficiency",
+    x = "Weight (1000 lbs)",
+    y = "Miles per Gallon",
+    color = "Cylinders"
+  ) 
+```
+
+> The visualization confirms the inverse relationship: heavier cars consume more fuel. The color coding by cylinder count also reveals that vehicles with more cylinders tend to be heavier and less efficient.
